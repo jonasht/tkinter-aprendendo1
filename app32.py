@@ -1,5 +1,9 @@
 from tkinter import *
 
-root = Tk()
+janela = Tk()
 
-root.mainloop()
+janela.title('app')
+
+lb = Label(janela, text='fim').pack()
+
+janela.mainloop()
