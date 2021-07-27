@@ -14,7 +14,7 @@ def print_rbt1():
 valorA = IntVar()
 valorB = IntVar()
 
-rbtA1 = Radiobutton(frameA, text='opção A 1', variable=valorA, value=1, command=print_rbt1, indicatoron=0)
+rbtA1 = Radiobutton(frameA, text='opção A 1', value=1, command=print_rbt1, indicatoron=0)
 rbtA2 = Radiobutton(frameA, text='opção A 2', variable=valorA, value=2)
 rbtA3 = Radiobutton(frameA, text='opção A 3', variable=valorA, value=3)
 
